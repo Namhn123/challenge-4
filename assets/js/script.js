@@ -1,3 +1,4 @@
+//stored all questions as objects
 var question1 = {
     questionText: "What is not a looping function?",
     answers: ["For", "While", "If", "Do While"],
@@ -5,15 +6,15 @@ var question1 = {
 }
 
 var question2 = {
-    questionText: "What is 3+3 equal to?",
-    answers: ["1", "33", "9", "6"],
-    correct: "6"
+    questionText: "Which operation is evaluated as true?",
+    answers: ["3 < 1", "3 === three", "3 === 3", "3 !== 3"],
+    correct: "3 === 3"
 }
 
 var question3 = {
-    questionText: "What shape has 20 sides?",
-    answers: ["Icosahedron", "Dodecahedron", "Pentagonal Trapezohedron", "Octagon"],
-    correct: "Icosahedron"
+    questionText: "What symbol does a ternary operator use?",
+    answers: ["?", "<>", "^", "$"],
+    correct: "?"
 }
 
 var question4 = {
@@ -23,9 +24,9 @@ var question4 = {
 }
 
 var question5 = {
-    questionText: "How many days are in a typical year?",
-    answers: ["7", "365", "1000", "30"],
-    correct: "365"
+    questionText: "What should be added to help other people understand your code?",
+    answers: ["Div", "Comments", "Single letter variable names", "If"],
+    correct: "Comments"
 }
 //set each question object into an array
 var questionList = [question1, question2, question3, question4, question5];
