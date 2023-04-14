@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Quiz</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+		<nav>
+			<a id="showBoard" href="">Show LeaderBoard</a>
+			<div id="timer"></div>
+		</nav>
+		<h1 id="title">Quiz</h1>
+		<section class="container" id="container">
+			<div id="question">Question: This is a test question, the answer will be D?</div>
+			<ul id = "answerChoices">
+				<li><button class="answer" type="button">A: One</button></li>
+				<li><button class="answer" type="button">B: Two</button></li>
+				<li><button class="answer" type="button">C: Three</button></li>
+				<li><button class="answer" type="button">D: Four</button></li>
+			</ul>
+			<div id="result"></div>
+			<button id="start" type="button">Start</button>
+			<form method="post" id="submit">
+				<div class="input-group">
+					<label for="email">Initials: </label>
+					<input type="text" name="initials" id="initials" />
+          <button id="submitButton">Submit</button>
+				</div>
+			</form>
+			<button id="clearButton">Clear Scores</button>
+			<button id="refreshButton">Go Back</button>
+		</section>
+
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
